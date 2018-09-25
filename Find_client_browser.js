@@ -1,4 +1,3 @@
-<script>
 // check browser
 var browser = '';
 var browserVersion = 0;
@@ -22,4 +21,3 @@ if(browserVersion === 0){
 }
 var d = document.getElementById("partner_page");
 d.className += ' '+browser;
-</script>
