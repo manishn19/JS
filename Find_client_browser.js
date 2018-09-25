@@ -19,5 +19,5 @@ if (/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
 if(browserVersion === 0){
     browserVersion = parseFloat(new Number(RegExp.$1));
 }
-var d = document.getElementById("partner_page");
+var d = document.getElementById("bodyID");
 d.className += ' '+browser;
